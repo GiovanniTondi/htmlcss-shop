@@ -11,18 +11,21 @@
 /* body */
 
 .container {
-    width: 900px;
-    border: solid 1px black;
+    width: 1000px;
+    /* DEBUG:  */
+    /* border: solid 1px black; */
 }
 
-/* prodotti */
+/* Box prodotti */
 
 .box {
     display: inline-block;
-    width: 33%;
+    width: 32%;
     background-color: #f5f5eb;
     position: relative;
 }
+
+/* *** SCONTO *** */
 
 .sconto {
     background-color: #2b7c19;
@@ -42,23 +45,35 @@
     background-color: #f02828;
 }
 
+/* *** PRODOTTO *** */
+
 .prodotto {
     height: 300px;
 }
 
 .img {
-    height: 280px;
-    display: block;
+    position: absolute;
 }
 
 .ipad {
-    padding-top: 25px;
+    height: 280px;
+    left: 40px;
+    top: 20px;
 }
 
 .iphone {
     height: 250px;
-    padding-top: 45px;
+    left: 35px;
+    top: 45px;
 }
+
+.cuffie {
+    height: 250px;
+    right: 0;
+    top: 48px;
+}
+
+/* *** CUORE FOOTER *** */
 
 .container-cuore {
     height: 35px;
@@ -73,3 +88,5 @@
 .box:hover .cuore {
     display: block;
 }
+
+/* ********************* */
