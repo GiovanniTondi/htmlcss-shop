@@ -9,16 +9,12 @@
 }
 
 /* body */
-
 .container {
     width: 1000px;
     padding-top: 100px;
-    /* DEBUG:  */
-    /* border: solid 1px black; */
 }
 
 /* Box prodotti */
-
 .box {
     display: inline-block;
     width: 32%;
@@ -27,7 +23,6 @@
 }
 
 /* *** SCONTO *** */
-
 .sconto {
     background-color: #2b7c19;
     position: absolute;
@@ -46,7 +41,6 @@
 }
 
 /* *** PRODOTTO *** */
-
 .prodotto {
     height: 300px;
 }
@@ -74,7 +68,6 @@
 }
 
 /* *** CUORE FOOTER *** */
-
 .container-cuore {
     height: 35px;
 }
