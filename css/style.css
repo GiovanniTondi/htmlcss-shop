@@ -27,10 +27,11 @@
 .sconto {
     background-color: #2b7c19;
     height: 25px;
-    width: 40px;
+    width: 45px;
     position: absolute;
     top: 0;
     right: 0;
+    text-align: center;
 }
 
 .verde {
@@ -38,13 +39,25 @@
 }
 
 .rosso {
-    background-color: red;
+    background-color: #f02828;
 }
 
 .prodotto {
+    height: 300px;
+}
+
+.img {
     height: 280px;
     display: block;
-    padding-top: 10px;
+}
+
+.ipad {
+    padding-top: 25px;
+}
+
+.iphone {
+    height: 250px;
+    padding-top: 45px;
 }
 
 .container-cuore {
