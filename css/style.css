@@ -12,6 +12,7 @@
 
 .container {
     width: 1000px;
+    padding-top: 100px;
     /* DEBUG:  */
     /* border: solid 1px black; */
 }
@@ -29,12 +30,11 @@
 
 .sconto {
     background-color: #2b7c19;
-    height: 25px;
-    width: 45px;
     position: absolute;
     top: 0;
     right: 0;
     text-align: center;
+    padding: 5px;
 }
 
 .verde {
