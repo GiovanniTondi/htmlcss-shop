@@ -4,6 +4,10 @@
     padding: 0;
 }
 
+html {
+  font-family: sans-serif;
+}
+
 .center {
     margin: 0 auto;
 }
@@ -22,9 +26,12 @@
     position: relative;
 }
 
+.box:hover {
+    cursor: pointer;
+}
+
 /* *** SCONTO *** */
 .sconto {
-    background-color: #2b7c19;
     position: absolute;
     top: 0;
     right: 0;
